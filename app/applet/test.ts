@@ -1,0 +1,2 @@
+const url = "https://rmavbdvkkabwpzavhdof.supabase.co/storage/v1/object/sign/web/88325812_2505357626371077_8600920336659120128_n.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZDUyNmU4My04NmQzLTQzYTItODFlMS0zZTNhYWQyOWE5NWYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWIvODgzMjU4MTJfMjUwNTM1NzYyNjM3MTA3N184NjAwOTIwMzM2NjU5MTIwMTI4X24uanBnIiwiaWF0IjoxNzcyMTU3NTAzLCJleHAiOjE4NjY3NjU1MDN9.pu_GNtXdoH-a_tXfBMiSFj90Ub9slNLwOCtP1e_cYe4";
+fetch(url).then(r => console.log(r.status, r.headers.get('content-type'), r.headers.get('content-length'))).catch(e => console.error(e));

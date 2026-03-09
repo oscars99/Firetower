@@ -1,0 +1,2 @@
+const url = "https://rmavbdvkkabwpzavhdof.supabase.co/storage/v1/object/sign/web/BarCombo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZDUyNmU4My04NmQzLTQzYTItODFlMS0zZTNhYWQyOWE5NWYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWIvQmFyQ29tYm8ucG5nIiwiaWF0IjoxNzcyMTYyNzY2LCJleHAiOjE4NjY3NzA3NjZ9.q-XBFVJ-XiRIwm57llmNaJ5u2xl558ZFUzcTNpqViCM";
+fetch(url).then(r => console.log(r.status, r.headers.get('content-type'), r.headers.get('content-length')));

@@ -1,0 +1,5 @@
+{
+  "name": "Fire Tower Miami",
+  "description": "Miami's Premier Lakefront Event Venue",
+  "requestFramePermissions": ["microphone"]
+}

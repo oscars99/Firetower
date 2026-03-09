@@ -1,0 +1,2 @@
+const url = "https://rmavbdvkkabwpzavhdof.supabase.co/storage/v1/object/sign/web/Wedding.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZDUyNmU4My04NmQzLTQzYTItODFlMS0zZTNhYWQyOWE5NWYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWIvV2VkZGluZy5qcGciLCJpYXQiOjE3NzIxNjA0MTEsImV4cCI6MTg2Njc2ODQxMX0.vGCt0zG9PZH3xI7f0D0zQHMHYG2tHTxqVV26IcxycY4";
+fetch(url).then(r => console.log(r.status, r.headers.get('content-type'), r.headers.get('content-length'))).catch(e => console.error(e));
